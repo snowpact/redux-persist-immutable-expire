@@ -1,0 +1,38 @@
+{
+  "name": "@snowpact/redux-persist-immutable-expire",
+  "version": "1.0.0",
+  "description": "Create expiring storage for your Redux stores that uses Immutable",
+  "main": "index.js",
+  "keywords": [
+    "redux",
+    "redux-persist",
+    "immutable"
+  ],
+  "author": "Murat AVCI, SnowPact",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "dependencies": {
+    "immutable": "^4.0.0-rc.12",
+    "redux": "^4.0.5",
+    "redux-persist": "^6.0.0"
+  },
+  "devDependencies": {
+    "codecov": "^3.6.5",
+    "mocha": "^7.1.0",
+    "nyc": "^15.0.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snowpact/redux-persist-immutable-expire.git"
+  },
+  "bugs": {
+    "url": "https://github.com/snowpact/redux-persist-immutable-expire/issues"
+  },
+  "homepage": "https://github.com/snowpact/redux-persist-immutable-expire#readme"
+}
